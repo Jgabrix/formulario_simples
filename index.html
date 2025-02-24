@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="apresentacao__sessao">
+            <div class="apresentacao__sessao__div1">
+                <h1 class="apresentacao__sessao__div1__titulo">Bem vindo ao <strong id="destaque__titulo">Formulario!</strong></h1>
+                <picture>
+                    <img src="./imagens/imagem_formulario.png" alt="imagem de Formulario" class="div__imagem">
+                </picture>
+            </div>    
+            <div class="apresentacao__sessao__div2">
+                <div class="apresentacao__sessao__div2__nome">
+                    <p>*Nome: <input type="text" class="nome nome__dado"></p>
+                    <p>*Sobrenome: <input type="text" class="sobrenome nome__dado"></p>
+                </div>
+                <div class="apresentacao__sessao__div2__dados">
+                    <p>*Email: <input type="email" class="dados" id="email"></p>
+                    <p>*Senha: <input type="password" class="dados" id="senha"></p>
+                    <p>*Telefone: <input type="number" class="dados" id="telefone"></p>
+                </div>
+                <button id="cadastro">Cadastrar conta</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">Desenvolvido por João Gabriel</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
