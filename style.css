@@ -20,7 +20,7 @@ body {
 .apresentacao__sessao {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 60%;
     margin: 12% auto;
     gap: 10px;
 }
